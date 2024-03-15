@@ -22,3 +22,9 @@ Selain itu kalian harus menentukan statuswater dan wind tersebut. Dengan ketentu
 
 value wind dalam satuan meter per detikBuatlah halaman tersebut semenarik mungkin dengan data selalu up-to-date (auto reload)!!
 
+
+# Desckripsi Program
+
+Program ini menggunakan go-fiber websocket untuk auto reloadnya. untuk mengaksesnya dapat ke localhost:3000. 
+
+Di CLI ada juga pemberitauan setiap detiknya bahwa file json dibaca. dan setiap 15 detik program akan menulis ke file-nya. 
